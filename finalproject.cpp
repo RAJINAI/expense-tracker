@@ -27,7 +27,7 @@ public:
         return amount;
     }
 
-    // Virtual destructor (IMPORTANT)
+    // Virtual destructor 
     virtual ~Expense() {}
 };
 
@@ -52,7 +52,7 @@ public:
     }
 };
 
-// Manager Class
+
 class ExpenseTracker {
 private:
     vector<Expense*> expenses;
@@ -89,7 +89,7 @@ public:
     }
 };
 
-// Main Function
+
 int main() {
     ExpenseTracker tracker;
 
